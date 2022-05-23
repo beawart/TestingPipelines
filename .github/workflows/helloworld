@@ -1,0 +1,8 @@
+name: hello-world
+on: push
+jobs:
+  taha-job: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Taha-Step
+        run: echo "hello world"
