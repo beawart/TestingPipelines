@@ -1,7 +1,6 @@
 name: nameOfTheWorkflow
 on: 
-  schedule:
-    - cron: '40 03 * * *'
+ push
 jobs:
   mainbuild: 
     runs-on: ubuntu-latest
