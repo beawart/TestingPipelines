@@ -1,7 +1,7 @@
 name: nameOfTheWorkflow
 on: 
   schedule:
-    - cron: '0 8-17 * * 1-5'
+    - cron: '20 03 * * 1-5'
 jobs:
   mainbuild: 
     runs-on: ubuntu-latest
