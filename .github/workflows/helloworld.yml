@@ -1,5 +1,7 @@
 name: nameOfTheWorkflow
-on: [push, fork]
+on: 
+  schedule:
+    - cron: '0 8-17 * * 1-5'
 jobs:
   mainbuild: 
     runs-on: ubuntu-latest
